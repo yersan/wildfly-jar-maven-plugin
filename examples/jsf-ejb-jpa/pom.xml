@@ -35,14 +35,8 @@
                         <layer>jpa</layer>
                         <layer>jsf</layer>
                         <layer>h2-driver</layer>
+                        <layer>cloud-server</layer>
                     </layers>
-                    <cli-sessions>
-                        <cli-session>
-                            <script-files>
-                                <script>../scripts/jsf-ejb-jpa-ds.cli</script>
-                            </script-files>
-                        </cli-session>
-                    </cli-sessions>
                 </configuration>
                 <executions>
                     <execution>
