@@ -6,3 +6,5 @@
 # Disable http
 /subsystem=undertow/server=${undertow.server}/http-listener=default:write-attribute(name=enabled, value=false)
 /subsystem=undertow/server=${undertow.server}/https-listener=https:add(ssl-context=server-ssl-context, socket-binding=https, proxy-address-forwarding=true)
+
+/system-property=test:add(value=${variable})
